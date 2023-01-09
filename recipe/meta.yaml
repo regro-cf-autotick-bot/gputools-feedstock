@@ -1,5 +1,5 @@
 {% set name = "gputools" %}
-{% set version = "0.2.13" %}
+{% set version = "0.2.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6cc344d96b83e9770ba29ba343b26d6c94d0e5a4580b4b86ecedbd8c2df124fb
+  sha256: dc3a4aef73e802f6b94a4262ac4c637a2fb62fe8472368e9143248d6d1cb93de
 
 build:
   noarch: python
@@ -42,7 +42,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'GPU accelerated image/volume processing in Python'
+  summary: GPU accelerated image/volume processing in Python
 
 extra:
   recipe-maintainers:
