@@ -1,5 +1,5 @@
 {% set name = "gputools" %}
-{% set version = "0.2.14" %}
+{% set version = "0.2.16" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: dc3a4aef73e802f6b94a4262ac4c637a2fb62fe8472368e9143248d6d1cb93de
+  sha256: f50ce14a8048a482c2af99bf8985e5b708d49662325c52cd74ea39fadc560e3a
 
 build:
   noarch: python
